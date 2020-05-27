@@ -125,6 +125,7 @@
   }
 }
 
+
 // Delay each nav item slide by 0.1s
 @for $x from 1 through 4 {
   .nav-item:nth-child(#{$x}) {
@@ -132,5 +133,7 @@
   }
   
 }
+
+
 
 
