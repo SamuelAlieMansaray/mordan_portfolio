@@ -1,11 +1,15 @@
 //Wide Screens
 @include mediaXl {
-
+.projects {
+  grid-template-columns: repeat(4, 1fr);
+}
 }
 
 //Desktop and Laptops
 @include mediaLg {
-  
+  .projects{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 //Tablets and Small Laptops
@@ -42,6 +46,7 @@
 
     .portrait {
       background: url('../img/small.jpg');
+      background-size: cover;
       width: 150px;
       height: 150px;
     }
@@ -56,6 +61,10 @@
     'job3';
 
     grid-template-columns: 1fr;
+    
+  }
+  .projects{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -65,4 +74,7 @@
     margin-top: 10vh;
   }
   
+  .projects{
+    grid-template-columns: 1fr;
+  }
 }
