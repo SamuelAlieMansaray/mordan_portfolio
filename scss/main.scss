@@ -89,8 +89,14 @@ main {
   
   .bio {
     grid-area: bio;
-    font-size: 1.5rem;
+
   }
+
+  .bio-p{
+    
+    font-size:1.7rem;
+  }
+
   
   .job-1 {
     grid-area: job1;
